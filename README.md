@@ -1,7 +1,7 @@
 # django-mongo-connection
 
-[![Build Status](https://travis-ci.org/inonit/django-mongoengine-connection.svg?branch=master)](https://travis-ci.org/inonit/django-mongoengine-connection)
-[![Coverage Status](https://coveralls.io/repos/github/inonit/django-mongoengine-connection/badge.svg?branch=master)](https://coveralls.io/github/inonit/django-mongoengine-connection?branch=master)
+[![Build Status](https://travis-ci.org/inonit/django-mongo-connection.svg?branch=master)](https://travis-ci.org/inonit/django-mongo-connection)
+[![Coverage Status](https://coveralls.io/repos/github/inonit/django-mongo-connection/badge.svg?branch=master)](https://coveralls.io/github/inonit/django-mongo-connection?branch=master)
 
 
 Simple Mongoengine connection wrapper for Django.
