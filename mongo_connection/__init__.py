@@ -7,7 +7,7 @@ from .constants import DEFAULT_ALIAS
 from .loading import ConnectionHandler
 
 __title__ = 'django-mongo-connection'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 __author__ = 'Rolf Haavard Blindheim'
 __license__ = 'MIT License'
 
