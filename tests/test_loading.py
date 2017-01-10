@@ -134,7 +134,7 @@ class ConnectionWrapperTestCase(TestCase):
         wrapper.reset_connection()
         self.assertFalse(wrapper.is_connected)
 
-        wrapper.connection
+        wrapper.connection  # Read the connection property to make it reconnect!
         self.assertTrue(wrapper.is_connected)
 
     def test_wrapper_register_connection(self):

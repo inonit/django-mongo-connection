@@ -6,6 +6,12 @@
 
 Simple Mongoengine connection wrapper for Django.
 
+## Installation
+
+```
+$ pip install django-mongo-connection
+```
+
 ## Setup
 
 Set up Mongo connections in `settings.py`
@@ -18,3 +24,10 @@ MONGO_CONNECTIONS = {
     }
 }
 ```
+
+## Usage
+
+Now you can define and query your documents as usual. 
+No need to manually manage Mongo connections.
+
+See the [official documentation](http://docs.mongoengine.org/) for more info on how to use mongoengine.
