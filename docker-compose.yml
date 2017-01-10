@@ -1,0 +1,9 @@
+version: '2'
+services:
+  mongo:
+    image: mongo:latest
+    volumes:
+      - ./.docker-data/mongo:/data/db
+    command: mongod --storageEngine wiredTiger
+    ports:
+      - "27017:27017"
