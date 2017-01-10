@@ -19,8 +19,9 @@ Set up Mongo connections in `settings.py`
 ```
 MONGO_CONNECTIONS = {
     'default': {
-        'NAME': 'default',  # Hostname or URI. If using URI, it will override all other options.
-        'HOST': os.environ.get('MONGO_HOST', 'localhost')
+        'NAME': 'default',
+        'HOST': os.environ.get('MONGO_HOST', 'localhost')  # Hostname or URI. If using URI, 
+                                                           # it will override all other options.
     }
 }
 ```
